@@ -1,0 +1,14 @@
+git clone --config="http.proxy=http://harry2243:treehousecomic@192.168.2.1:8080" https://github.com/harry2243-cmis/harry2243-cmis-cs2.git
+
+cd-harry2243-cmis-cs2
+
+gedit "file name"
+
+git add "file name"
+
+git commit -m "text"
+
+git push 
+
+
+
