@@ -1,23 +1,28 @@
 myName = "Harry.W"
 print myName
 
-myAge = "15"
+myAge = 15 + 31/365.0
 print myAge
 
-myNationality = "Taiwan"
-print myNationality
-
-myFavGame = "NBA2K16"
-print myFavGame
-
-myHeight = "168cm"
+myHeight = 1.68
 print myHeight
 
-myLaptop = "Asus X450JK"
-print myLaptop
+sq1side = 3
+print sq1side
 
-myLife = "Alright"
-print myLife
+lengthrec = 10
+print lengthrec
 
-myMood = "Normal"
-print myMood
+heightrec = 20
+print heightrec
+
+ageinmonth = myAge * 12
+print ageinmonth
+
+ageIcanlive = 80 - myAge
+print ageIcanlive
+
+heightinfeet = myHeight * 3.28084
+print heightinfeet
+
+
