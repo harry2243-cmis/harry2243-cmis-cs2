@@ -16,9 +16,9 @@ def div(a, b):
 	return float(a) / b
 print div(2, 3)
 
-def div(a, b):
+def divhrs(a, b):
 	return a / b
-print div(86400, 3600)
+print divhrs(86400, 3600)
 
 def mul(a, b):
 	return math.pi* a **2
@@ -28,4 +28,43 @@ def volume(a):
 	return (((4/3.0)*math.pi)*a**3)
 print volume(5)
 
+def avg_volume (a, b):
+	 return ((1.0/6 * math.pi * a**3) + (1.0/6 * math.pi * b**3)) /2
+print avg_volume(10, 20)
+
+def area (a, b, c):
+	return math.sqrt (2.75*(2.75-a)*(2.75-b)*(2.75-c))
+	
+print area (1.0, 2.0, 2.5)
+
+def right_align(word):
+	return str ((80-len(word))*" " + word)
+	
+print right_align("Hello")
+
+def center(term):
+	return str ((40-len(term))*" " + term) 
+	
+print center ("Hello")
+	
+def msg_box(word):
+	return "+" + ((len(word)+ 4)*"-") + "+" + "\n" + "|" + (2*" ") + (word) + (2*" ") + "|" + "\n" + "+" + ((len(word)+ 4)*"-") + "+"
+	
+print msg_box("Hello")
+print msg_box("I eat cats!")
+
+
+a = add(3, 11)
+b = add(4, 12)
+c = sub(2, 1234)
+d = mul(4, 467)
+e = mul(7, 6789)
+f = div(34567, 7893675)
+g = div(51231, 18668)
+h = divhrs(262345, 598757867)
+i = divhrs(3, 78)
+j =
+k =
+
+	
 
