@@ -1,4 +1,4 @@
-import math 
+import math
 
 def add(a, b):
 	return a + b
@@ -32,10 +32,11 @@ def avg_volume (a, b):
 	 return ((1.0/6 * math.pi * a**3) + (1.0/6 * math.pi * b**3)) /2
 print avg_volume(10, 20)
 
-def area (a, b, c):
-	return math.sqrt(2.75*(2.75-a)*(2.75-b)*(2.75-c))
-	
-print area (1.0, 2.0, 2.5)
+def area(a, b, c):
+	x = (a + b + c)/2
+	return math.sqrt(x*(x-a)*(x-b)*(x-c))
+
+print area(1, 2, 3)
 
 def right_align(word):
 	return str ((80-len(word))*" " + word)
