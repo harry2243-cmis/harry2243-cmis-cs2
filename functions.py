@@ -32,8 +32,9 @@ def avg_volume (a, b):
 	 return ((1.0/6 * math.pi * a**3) + (1.0/6 * math.pi * b**3)) /2
 print avg_volume(10, 20)
 
-def area(a, b, c): x = (a + b + c)/2
-	return (x*(x-a)*(x-b)*(x-c))
+def area(a, b, c):
+	x = (a + b + c)/2
+	return math.sqrt(x*(x-a)*(x-b)*(x-c))
 
 def right_align(word):
 	return str ((80-len(word))*" " + word)
@@ -67,10 +68,10 @@ m = volume(4)
 n = volume(87)
 o = avg_volume(876, 98766)
 p = avg_volume(6, 87)
-q = area(8.6, 978.5566, 34.67)
-r = area(87.7, 456.4, 7457.77)
+q = area(1, 2, 3)
+r = area(3, 2, 1)
 s = right_align("hello")
-t = right_align("itsme")
+t = right_align("rekt")
 u = center("iwaswondering")
 v = center("blahblahblah")
 w = msg_box("hellofromthe")
