@@ -67,7 +67,7 @@ print ""
 
 #0pt for header line
 #1pt for parameter names
-#0pt for return value
+#1pt for return value
 #0pt for correct output format
 #0pt for correct use of format function
 cir_dia1 = math.sqrt(((float(C1)) / math.pi)) + math.sqrt(((float(C1)) / math.pi))
@@ -80,7 +80,7 @@ Total = float(cir_dia1) + float(cir_dia2) + float(cir_dia3)
 #0pt getting input
 #0pt converting input
 #0pt for calling output function
-#0pt for correct diameter formula
+#1pt for correct diameter formula
 #1pt for variable names
 
 print "Circle Diameter"
