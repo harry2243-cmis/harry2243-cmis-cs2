@@ -8,10 +8,10 @@ Greetings, Mr./Miss {}, welcome to BallDream Calculating Center. You currently a
 def main():
 	
 	name = raw_input("What is your name?: ")
-	whereAttend = raw_input("Which school do you attend?:")
+	whereAttend = raw_input("Which school do you attend?: ")
 	firstGame = raw_input("How much points did you score in your game 2 games ago?: ")
 	secondGame = raw_input("How much points did you score in your latest game?: ")
-	avgPoints = (int(firstGame)+ int(secondGame))/2
+	avgPoints = (float(firstGame)+ float(secondGame))/2
 	return output(name, whereAttend, avgPoints)	
 main()
 
