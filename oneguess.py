@@ -1,17 +1,33 @@
 import random
 
+def numberRange(minimum, maximum):
+    return random.randint(minimum, maximum)
+
+def output(result, PlayerGuess, wrong):
+    if result == PlayerGuess:
+        print """The target was {}
+Your guess was {}
+That's correct! You must be a psychic!""".format(result, PlayerGuess)
+    else:
+        print """The target was {}
+Your guess was {}
+{}""".format(result, PlayerGuess, wrong)
+
+def PlayerResult(result, PlayerGuess):
+    if result > PlayerGuess:
+        sub = abs(PlayerGuess - result)
+        return "That is under by {}".format(sub)
+    else:
+        add = abs(PlayerGuess - result)
+        return "That is over by {}".format(add)
+
 def main():
-	number1 = raw_input("What is the minimum number?")
-	number2 = raw_input("What is the maximum number?")
-	thinkingNumber = raw_input("What do you think the number is?")
-	return output()
+    minimum = int(raw_input("What is the minimum number? "))
+    maximum = int(raw_input("What is the maximum number? "))
+    print "I am thinking of a number from {} to {}".format(minimum, maximum)
+    PlayerGuess = int(raw_input("What do you think it is?: "))
+    result = int(numberRange(minimum, maximum))
+    wrong = PlayerResult(result, PlayerGuess)
+    return output(result, PlayerGuess, wrong)
 
-def output():
-	print """
-	The target was {}.
-	Your guess was {}.
-	That's under by {}.
- 
-
-
-
+main()
