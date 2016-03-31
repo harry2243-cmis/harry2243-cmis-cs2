@@ -51,7 +51,7 @@ import math
 
 def output(numberone, numbertwo, numberthree):
 	print """
-"Type in 3 different numbers (decimals are ok)."
+"Type in 3 different numbers (decimals are ok)"
 """
 
 def main():
