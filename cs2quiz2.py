@@ -1,11 +1,11 @@
 #PART 1: Terminology
 #1) Give 3 examples of boolean expressions.
 #a) 1>3
-#b) 5>2
-#c) 6 = 6
+#b) 5>2*2-3
+#c) 74>=2*2*3
 #
 #2) What does 'return' do?
-# 'return' helps call the def/function. 
+# 'return' helps call the def/function. It also help split the value
 #
 #
 #
@@ -18,25 +18,25 @@
 #PART 2: Reading
 #Type the values for 9 of the 12 of the variables below.
 #
-#problem1_a) = -6
+#problem1_a) = -36
 #problem1_b) = -3
 #problem1_c) = 0
 #problem1_d) = 5
 #
-#problem2_a)
-#problem2_b)
-#problem2_c)
-#problem2_d)
+#problem2_a) = True
+#problem2_b) = False
+#problem2_c) = False
+#problem2_d) = True
 #
-#problem3_a) = 1.3
-#problem3_b) = 1.5
-#problem3_c) = 1.5
+#problem3_a) = 0.3
+#problem3_b) = 0.5
+#problem3_c) = 0.5
 #problem3_d) = 1
 #
-#problem4_a) = 24
-#problem4_b) = 6
+#problem4_a) = 7
+#problem4_b) = 5
 #problem4_c) = 12.5
-#problem4_d) = 3
+#problem4_d) = 5
 #
 
 #PART 3: Programming
