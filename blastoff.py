@@ -1,13 +1,15 @@
-def countdown(n):
-	if n>=10:
+def countdown_from_to(start, stop):
+	if start<stop:
 		print 'Blastoff'
 	else: 
-		print n
-		countdown(n+1)
+		print start
+		countdown_from_to(start-1, stop)
+
 
 def main():
-	countdown(0)
 
-	return
+def adder():
+	
+	countdown_from_to(5, 2)
 
 main()
