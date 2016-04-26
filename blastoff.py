@@ -8,8 +8,7 @@ def countdown_from_to(start, stop):
 
 def main():
 
-def adder():
 	
-	countdown_from_to(5, 2)
+	countdown_from_to(7, 2)
 
 main()
