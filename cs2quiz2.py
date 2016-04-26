@@ -3,40 +3,40 @@
 #a) 1>3
 #b) 5>2*2-3
 #c) 74>=2*2*3
-#
+# +3
 #2) What does 'return' do?
 # 'return' helps call the def/function. It also help split the value
 #
-#
+# +1
 #
 #3) What are 2 ways indentation is important in python code?
 #a) Identation makes the python code work.
 #b) Identation for 'return' or python codes after 'def', helps the code to work.
 #
-#
+# +2
 
 #PART 2: Reading
 #Type the values for 9 of the 12 of the variables below.
 #
-#problem1_a) = -36
-#problem1_b) = -3
-#problem1_c) = 0
-#problem1_d) = 5
+#problem1_a) = -36 (+1)
+#problem1_b) = -3 (+1)
+#problem1_c) = 0 (+1)
+#problem1_d) = -5 (+1) 
 #
-#problem2_a) = True
-#problem2_b) = False
-#problem2_c) = False
-#problem2_d) = True
+#problem2_a) = True (+1)
+#problem2_b) = False (+1)
+#problem2_c) = False (+1)
+#problem2_d) = True (+1)
 #
-#problem3_a) = 0.3
-#problem3_b) = 0.5
-#problem3_c) = 0.5
-#problem3_d) = 1
+#problem3_a) = 0.3 (+1)
+#problem3_b) = 0.5 (+1)
+#problem3_c) = 0.5 (+1)
+#problem3_d) = 0.5 (+1)
 #
-#problem4_a) = 7
-#problem4_b) = 5
-#problem4_c) = 12.5
-#problem4_d) = 5
+#problem4_a) = 7 (+1)
+#problem4_b) = 5 (+1)
+#problem4_c) = 12.5 
+#problem4_d) = 5 (+1)
 #
 
 #PART 3: Programming
@@ -47,7 +47,7 @@
 #the directions.
 #Be sure to use the program structure you've learned (main function, processing function, output function)
 
-import math
+#Q23 +1
 
 def output(numberone, numbertwo, numberthree):
 	print """
@@ -61,6 +61,7 @@ def main():
 	numberthree = raw_input("C: ")
 	return cal
 
+#Q30 +1
 def cal(): 
 	Anumber = math(float(numberone))
 	Bnumber = math(float(numbertwo))
