@@ -13,18 +13,15 @@
 #
 #main()
 
-def adder():
 
-	n0 = float(raw_input("Next Number:"))
-	if n0 != (""):
-		adder()
-	else: running_total = raw_input("0")
-		
+def adder(running_total = 0):
+	print "The running total is {}".format(running_total)
+	n0 = raw_input("next number: ")
+	if n0 == "":
+		print "The sum is {}".format(running_total)
+	else:
+		running_total += float(n0)
+	
+		adder(running_total)
 adder()
 
-def running_total(total):
-	total = "n0"
-	total + "n0"
-	print total
-
-running_total()
