@@ -7,7 +7,7 @@ def output(result, PlayerGuess, wrong):
     if result == PlayerGuess:
         print """The target was {}
 Your guess was {}
-That's correct! You must be a psychic!""".format(result, PlayerGuess)
+That's correct!""".format(result, PlayerGuess)
     else:
         print """The target was {}
 Your guess was {}

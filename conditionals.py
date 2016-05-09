@@ -5,7 +5,7 @@ import random
 def output():
 	print """
 Greetings, Mr./Miss {}, welcome to BallDream Calculating Center once again. Today, we'll help you find out what position in basketball fits best for you.
-""".format
+""".format(Name)
 
 def main():
 
@@ -24,3 +24,4 @@ def main():
 		print "You should be a Center."
 	return main(name, height, bballposition)
 	
+main()
