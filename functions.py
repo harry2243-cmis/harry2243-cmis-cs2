@@ -1,81 +1,97 @@
 import math
+def add(a,b):
+	return a+b
+print add(3,4)
+# This adds a and b
 
-def add(a, b):
-	return a + b
-print add(3, 4)
+def sub(a,b):
+	return a-b
+print sub(5,3)
+# This suntracts a and b
 
-def sub(a, b):
-	return a - b
-print sub(5, 3)
+def mul(a,b):
+	return a*b
+print mul(4,4)
+# This times a and b
 
-def mul(a, b):
-	return a * b
-print mul(4, 4)
+def div(a,b):
+	return a/b
+print div(2,3.0)
+# This divides a and b
 
-def div(a, b):
-	return float(a) / b
-print div(2, 3)
+def hours_from_seconds(a,b):
+	return a/b
+print hours_from_seconds(86400,3600)
+# This divides the time
 
-def divhrs(a, b):
-	return a / b
-print divhrs(86400, 3600)
-
-def multi(a, b):
+def circle_area(a):
 	return math.pi* a **2
-print multi(5,2)
+print circle_area(5)
+# This is a function that tells the area
 
-def volume(a):
-	return (((4/3.0)*math.pi)*a**3)
-print volume(5)
+def sphere_volume(radius):
+	return 1.33333333333 * math.pi * (radius**3) #
+print sphere_volume(5)
+# This is a function that tells the volume
 
-def avg_volume (a, b):
-	 return ((1.0/6 * math.pi * a**3) + (1.0/6 * math.pi * b**3)) /2
+def avg_volume(diameter1, diameter2):
+    vsphere1=volume(diameter1/2)
+    vsphere2=volume(diameter2/2)
+    return (vsphere1+vsphere2)/2
 print avg_volume(10, 20)
+# This is a function that tells the average volume
 
 def area(a, b, c):
-	x = (a + b + c)/2
-	return math.sqrt(x*(x-a)*(x-b)*(x-c))
+	return math.sqrt (2.75*(2.75-a)*(2.75-b)*(2.75-c))
+print area(1.0, 2.0, 2.5)
+# This is a function that tells the area
 
 def right_align(word):
 	return str ((80-len(word))*" " + word)
-	
 print right_align("Hello")
+# This is a funtion that tells the right align
 
 def center(term):
 	return str ((40-len(term))*" " + term) 
-	
 print center ("Hello")
-	
+# This is a function that tells the center
+
 def msg_box(word):
-	return "+" + ((len(word)+ 4)*"-") + "+" + "\n" + "|" + (2*" ") + (word) + (2*" ") + "|" + "\n" + "+" + ((len(word)+ 4)*"-") + "+"
+	return "+" + ((len(word)+ 4)*"-") + "+" + "\n" + "|" + (2*" ") + (word) + (2*" ") + "|" + "\n" + "+" + ((len(word)+ 4)*"-") + "+" 
+# This is a funtion that makes the message box
 	
 print msg_box("Hello")
 print msg_box("I eat cats!")
+# This prints the mesage boxes
 
-a = add(3, 11)
-b = add(4, 12)
-c = sub(2, 1234)
-d = sub(5, 56)
-e = mul(4, 467)
-f = mul(7, 6789)
-g = div(34567, 7893675)
-h = div(51231, 18668)
-i = divhrs(262345, 598757867)
-j = divhrs(3, 78)
-k = multi(2345, 67969)
-l = multi(857, 728472)
-m = volume(4)
-n = volume(87)
-o = avg_volume(876, 98766)
-p = avg_volume(6, 87)
-q = area(1, 2, 3)
-r = area(3, 2, 1)
-s = right_align("hello")
-t = right_align("rekt")
-u = center("iwaswondering")
-v = center("blahblahblah")
-w = msg_box("hellofromthe")
-x = msg_box("otherside")	
+a=add(3,4)
+b=sub(5,3)
+c=mul(4,4)
+d=div(2,3.0)
+e=divhrs(86400,3600)
+f=area(5)
+g=volume(5)
+h=avg_volume(10, 20)
+i=area2(1.0, 2.0, 2.5)
+j=right_align("Hello")
+k=center ("Hello")
+l=msg_box("Hello")
+m=msg_box("I eat cats!")
+
+ab=add(8,2)
+cd=sub(3,8)
+ef=mul(9,9)
+gh=div(4,8.0)
+ij=divhrs(88400,4600)
+kl=area(6)
+mn=volume(2)
+op=avg_volume(11, 25)
+qr=area2(1.5, 3.0, 4.5)
+p=right_align("Hey")
+z=center ("Hens")
+x=msg_box("Life")
+y=msg_box("I eat for a living!")
+
 print msg_box(str(a))
 print msg_box(str(b))
 print msg_box(str(c))
@@ -85,18 +101,20 @@ print msg_box(str(f))
 print msg_box(str(g))
 print msg_box(str(h))
 print msg_box(str(i))
-print msg_box(str(j))
-print msg_box(str(k))
-print msg_box(str(l))
-print msg_box(str(m))
-print msg_box(str(n))
-print msg_box(str(o))
-print msg_box(str(p))
-print msg_box(str(q))
-print msg_box(str(r))
-print msg_box(str(s))
-print msg_box(str(t))
-print msg_box(str(u))
-print msg_box(str(v))
-print msg_box(str(w))
-
+print msg_box(j)
+print msg_box(k)
+print l
+print m
+print msg_box(str(ab))
+print msg_box(str(cd))
+print msg_box(str(ef))
+print msg_box(str(gh))
+print msg_box(str(ij))
+print msg_box(str(kl))
+print msg_box(str(mn))
+print msg_box(str(op))
+print msg_box(str(qr))
+print msg_box(p)
+print msg_box(z)
+print x
+print y
