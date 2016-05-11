@@ -2,26 +2,25 @@ Name = raw_input("Contestant's name")
 print "Welcome to BallDream Calculating Center once again! Today, we present to you, The Road To The Final"
 print ("\n")
 
-print "Hello " + str(a) + ", your ship have crashed and you have been stranded on island."
+print "Hello " + str(Name) + ", you are about to enter BallDream Calculating Center's The Road To The Final contest."
+print ("\n")
+
+print "The program will be testing your basketball knowledges, including thr NBA. So, without further ado, let's begin!"
 
 print ("\n")
 
-print "Here you will have many choices to make, remember your survival depends on those choices."
+print "Q.1 : Who is the father/creator, of basketball? James Naismith, or Walter Camp."
 
 print ("\n")
 
-print "You see that both your knife and canteen have washed up onto shore with you, but you can only take one, which one do you pick?"
-
-print ("\n")
-
-choice_1 =raw_input("type your choice here ")
+choice_1 =raw_input("Please type your choice here ")
 
 print("\n")
 
-if choice_1 == "knife":
-	print "great choice"
+if choice_1 == "James Naismith":
+	print "You are correct! James Naismith invented the sport of basketball in 1891. He wrote the original basketball rulebook, founded the University of Kansas basketball program, and lived to see basketball adopted as an Olympic demonstration sport in 1904 and as an official event at the 1936 Summer Olympics in Berlin, as well as the birth of both the National Invitation Tournament and the NCAA Men's Division I Basketball Championship."
 else: 
-	print "sorry m8 you won't survive"
+	print "Sorry, you have been eliminated from the contest. Better luck next time!"
 	exit()
 
 print ("\n")

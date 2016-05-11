@@ -19,9 +19,9 @@ def div(a,b):
 print div(2,3.0)
 # This divides a and b
 
-def hours_from_seconds(a,b):
+def hours_from_seconds(a):
 	return a/b
-print hours_from_seconds(86400,3600)
+print hours_from_seconds(86400)
 # This divides the time
 
 def circle_area(a):
@@ -35,8 +35,8 @@ print sphere_volume(5)
 # This is a function that tells the volume
 
 def avg_volume(diameter1, diameter2):
-    vsphere1=volume(diameter1/2)
-    vsphere2=volume(diameter2/2)
+    vsphere1=(diameter1/2)
+    vsphere2=(diameter2/2)
     return (vsphere1+vsphere2)/2
 print avg_volume(10, 20)
 # This is a function that tells the average volume
@@ -68,11 +68,11 @@ a=add(3,4)
 b=sub(5,3)
 c=mul(4,4)
 d=div(2,3.0)
-e=divhrs(86400,3600)
-f=area(5)
-g=volume(5)
+e=hours_from_seconds(86400)
+f= circle_area(5)
+g=sphere_volume(5)
 h=avg_volume(10, 20)
-i=area2(1.0, 2.0, 2.5)
+i=area(1.0, 2.0, 2.5)
 j=right_align("Hello")
 k=center ("Hello")
 l=msg_box("Hello")
@@ -82,11 +82,11 @@ ab=add(8,2)
 cd=sub(3,8)
 ef=mul(9,9)
 gh=div(4,8.0)
-ij=divhrs(88400,4600)
-kl=area(6)
-mn=volume(2)
+ij=hours_from_seconds(88400)
+kl= circle_area(6)
+mn=sphere_volume(2)
 op=avg_volume(11, 25)
-qr=area2(1.5, 3.0, 4.5)
+qr=area(1.5, 3.0, 4.5)
 p=right_align("Hey")
 z=center ("Hens")
 x=msg_box("Life")
