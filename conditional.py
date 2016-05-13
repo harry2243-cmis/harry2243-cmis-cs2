@@ -40,7 +40,7 @@ def Allstar():
 		print "You are correct!"
 	else:
 		print "Sorry, you are wrong~~~~ Better luck next time!"
-	quit()
+		quit()
 
 	print("\n")
 	
