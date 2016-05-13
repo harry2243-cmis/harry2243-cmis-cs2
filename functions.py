@@ -20,7 +20,7 @@ print div(2,3.0)
 # This divides a and b
 
 def hours_from_seconds(a):
-	return a/b
+	return a/3600
 print hours_from_seconds(86400)
 # This divides the time
 
