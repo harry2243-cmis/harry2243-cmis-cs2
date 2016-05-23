@@ -1,11 +1,11 @@
 #Section 1: Terminology
 # 1) What is a recursive function?
 # Recursive function is a function that either calls itself, or it's in a function call. It is also a function that recurse.
-#
+#+1
 #
 # 2) What happens if there is no base case defined in a recursive function?
 # The function won't work. 'if' won't work. It also wouldn't be complete.
-#
+#+
 #
 # 3) What is the first thing to consider when designing a recursive function?
 # Have the base case. Without the base case, it won't work well.
@@ -27,19 +27,22 @@
 #a1 = 8
 #a2 = 8
 #a3 = -1
+#+3
 
 #b1 = 2
 #b2 = 2
 #b3 = 1
+#+2
 
 #c1 = -2
 #c2 = 4
 #c3 = 45
+#+3
 
 #d1 = 6 
 #d2 = 8 
 #d3 = 4
-
+#+3
 #Section 3: Programming
 #Write a script that asks the user to enter a series of numbers.
 #When the user types in nothing, it should return the average of all the odd numbers
