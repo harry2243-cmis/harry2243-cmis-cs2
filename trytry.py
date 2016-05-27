@@ -20,9 +20,11 @@ def addodd():
 		print n
 		n+=1
 
+def grid(w, h):
+	out = ","*w*h
+	print out
+
 def main():
-	countdown(7)
-	countup(2)
-	count(4)
+	grid(50, 40)
 main()
 
