@@ -1,62 +1,23 @@
 #This game is to test your knowledge in basketball, and if you are a true fan of it.
 import random
 
-def intro():
+def Rookie():
 
-	print "Welcome to BallDream Calculating Center once again! Today, we present to you, The Road To The Final."
-	
+	print """ "Welcome to BallDream Calculating Center once again! Today, we present to you, The Road To The Final."
 
-	print "Hello, you are about to enter BallDream Calculating Center's The Road To The Final contest."
-	print ("\n")
+"Hello, you are about to enter BallDream Calculating Center's The Road To The Final contest."
 
-	print "The program will be testing your basketball knowledges, including thr NBA. So, without further ado, let's begin!"
+"The program will be testing your basketball knowledges, including thr NBA. So, without further ado, let's begin!"
+"""
 
-	print ("\n")
+def pro():
 
-def age():
-	age = raw_input("Please type your age here :")
-	random.randint(1,99)
-	if age >= 15:
-		print "YOUNG BOI!!"
-	elif age < 15:
-		print "U R OLD!!"
-	else:
-		return random.random()
-	print ("\n")
+	print """Q.1 : Who is the father/creator, of basketball?"
+ "James Naismith, or Walter Camp?" """
 
-def Warmup():
-	
-	print "Warm Up Question : Basketball is everyone's favorite sport. True or False?"
-
-	Warmup_choice = raw_input("Please type your choice here")
-
-	if Warmup_choice == "True" or "False":
-		print "People have their own opinion in their favorite sports, this is just a warmup question. Let's begin the real deal!"
-	
-		print("\n")
-
-def Warmup2():
-	
-	print "Warm Up Question 2 : Basketball is for cool people. True or False?"
-
-	Warmup_choice2 = raw_input("Please type your choice here")
-
-	if Warmup_choice2 == "True" or "False":
-		print "People have their own opinion about basketball, this is just a warmup question. Let's begin the real deal!"
-	
-		print("\n")
-
-def rookie():
-
-	print "Q.1 : Who is the father/creator, of basketball?"
-	print " James Naismith, or Walter Camp?"
-
-	print ("\n")
 
 	choice_1 =raw_input("Please type your choice here ")
 	
-	print("\n")
-
 	if choice_1 == "James Naismith":
 		print "You are correct! James Naismith invented the sport of basketball in 1891."
 	else: 
@@ -74,6 +35,8 @@ def Allstar():
 
 	if choice_2 == "travel":
 		print "You are correct!"
+	elif choice_2 == "Double drible":
+		print "You are wrong"
 	else:
 		print "Sorry, you are wrong~~~~ Better luck next time!"
 		quit()
@@ -91,43 +54,78 @@ def Halloffame():
 	if choice_3 == "Karl Anthony Towns":
 		print "You are correct!"
 	elif choice_3 == "Andrew Wiggins":
-		print "You are wrong" 
+		print "You are wrong!"
 	else:
 		print "Sorry, you are wrong~~~~ Better luck next time!"
 		exit()
 
 		print("\n")
 
-def Halloffame2():
-	
-	print "Q.4 : How many points did James Harden average in the 2011-12 NBA season?"
+def godlike():
 
-	choice_4 = raw_input("Please type your choice here - 12.2 or 16.8")
+	print "Q.4 : Who did the Rockets hire as their 2016-17 coach?"
+	print "Jeff Van Gundy, or Mike D'Antoni?"
 
-	if choice_4 == "16.8":
+	choice_4 = raw_input("Please type your choice here ")
+
+	if choice_4 == "Mike D'Antoni":
 		print "You are correct!"
-	elif choice_4 > "12.2":
-		print "You are wrong" 
 	else:
 		print "Sorry, you are wrong~~~~ Better luck next time!"
-		exit()
+		quit()
 
-		print("\n")
+	print("\n")
 
+def Opinion():
+
+	print "Basketball is the best sport?"
+	print "Yes or No?"
+
+	choice_4 = raw_input("Please type your choice here ")
+
+	if choice_4 == "Yes":
+		return True
+	else:
+		return False
+		quit()
+
+	print("\n")
+
+def Bonus():
+	choice_5= raw_input("What is James Harden's height?")
+	if choice_5 == 196:
+		return 1
+	elif choice_5 >= 196 and choice_5 <= 190:
+		print "You are close"
+	elif choice_5 < 180 or choice_5 >200:
+		print "better try next time"
+	elif not choice_5 <170:
+		print 0
+	else:
+		return 0
+
+def ring():
+	choice_6=raw_input("How many total ring does the Boston Celtics currently have?")
+	if choice_6 == 17:
+		return random.randint(1,5)
+	else:
+		return random.random
+	
+	
 def End():
 
-	print "Wow, you did it!"
-	print "Congradulation! You have passed the BallDream Calculating Center, The Road To The Final program!"
-	print("\n")
+	print """ "Wow, you did it!"
+"Congradulation! You have passed the BallDream Calculating Center, The Road To The Final program!"
+"""
 	
 def main():
-	intro()
-	age()
-	Warmup()
-	Warmup2()
-	rookie()
+	Rookie()
+	pro()
 	Allstar()
 	Halloffame()
-	Halloffame2()
+	godlike()
+	Opinion()
+	Bonus()
+	ring()
 	End()
 main()	
