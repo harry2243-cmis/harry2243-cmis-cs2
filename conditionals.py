@@ -38,7 +38,7 @@ def Allstar():
 	elif choice_2 == "Double drible":
 		print "You are wrong"
 	else:
-		print "Sorry, you are wrong~~~~ Better luck next time!"
+		print "Sorry, you are wrong~~~~ Better luck next {}".format("time!")
 		quit()
 
 	print("\n")
@@ -129,3 +129,8 @@ def main():
 	ring()
 	End()
 main()	
+
+#Use each of the logical operators at least once. 
+#At least 1 must return a string.
+#2 conditional execution.
+
