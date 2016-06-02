@@ -92,13 +92,13 @@ def Opinion():
 	print("\n")
 
 def Bonus():
-	choice_5= raw_input("What is James Harden's height?")
+	choice_5= raw_input("What is James Harden's height? (For fun)")
 	if choice_5 == 196:
 		return 1
 	elif choice_5 >= 196 and choice_5 <= 190:
 		print "You are close"
 	elif choice_5 < 180 or choice_5 >200:
-		print "better try next time"
+		print "Bette luck next time~"
 	elif not choice_5 <170:
 		print 0
 	else:
