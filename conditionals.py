@@ -10,6 +10,25 @@ def Rookie():
 "The program will be testing your basketball knowledges, including thr NBA. So, without further ado, let's begin!"
 """
 
+def test():
+
+	print "What is your age?"
+
+	choice_test = raw_input("Please type your age here ")
+
+	if choice_test == "15":
+		return "OK, next."
+
+def test2():
+
+	print "Where are you born?"
+
+	choice_test2 = raw_input("Please type where you're born here ")
+
+	if choice_test2 == "Taiwan":
+		return "Alright, let's get started!"
+
+
 def pro():
 
 	print """Q.1 : Who is the father/creator, of basketball?"
@@ -120,6 +139,8 @@ def End():
 	
 def main():
 	Rookie()
+	test()
+	test2()
 	pro()
 	Allstar()
 	Halloffame()
